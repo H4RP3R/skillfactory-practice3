@@ -1,0 +1,275 @@
+/* ________________ navigation ________________ */
+@media screen and (max-width: 518px) {
+    .menu {
+        margin-top: 0;
+    }
+
+    .menu ul {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menu li {
+        justify-content: center;
+        width: 50%;
+    }
+
+    .menu a {
+        margin: 15px 30px;
+    }
+
+    .text h1 {
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu li {
+        width: 100%;
+    }
+}
+
+/* __________________ content-1 ____________________ */
+@media screen and (max-width: 1148px) {
+    .text, .video {
+        width: 50vw;
+        height: auto;
+        margin: 0 1vw 0 0;
+    }
+
+    .content-1 h1 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content-1 {
+        flex-wrap: wrap;
+        margin-top: 6vw;
+    }
+
+    .text {
+        min-height: auto;
+    }
+
+    .text, .video {
+        width: 100%;
+        height: auto;
+        margin: 1vw 0;
+        align-items: center;
+    }
+
+    .text h1 {
+        margin: 2vw;
+        text-align: center;
+    }
+
+    .content-1 h1 {
+        font-size: 7vw;
+    }
+
+    p {
+        max-width: 96%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .content-1 h1 {
+        font-size: 28px;
+    }
+
+    .text p {
+        margin-left: 1vw;
+    }
+}
+
+/* __________________ content-2 ____________________ */
+@media screen and (max-width: 1148px) {
+    .quarter {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content-2 {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .left-2, .right-2 {
+        width: 100%;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .prod-links {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ______________ feature products ________________*/
+@media screen and (max-width: 1280px) {
+    .blue-box-wrapper {
+        width: 86vw;
+    }
+
+    .blue-box {
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .prod-links {
+        flex-wrap: wrap;
+    }
+
+    .blue-box-wrapper {
+        width: 78vw;
+    }
+
+    .blue-box {
+        width: 36vw;
+        height: 36vw;
+        margin-top: 5vw;
+    }
+}
+
+/* __________________ team _____________________ */
+@media screen and (max-width: 359px) {
+    .txt h3 {
+        font-size: 9vw;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+
+    .small-red-box {
+        width: 16vw;
+        height: 16vw;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .big-red-box {
+        width: 26vw;
+        height: 40vw;
+    }
+
+    .social-links {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .red-box-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .some-text {
+        width: 100%;
+    }
+
+    .big-red-box {
+        width: 320px;
+        height: 460px;
+        margin-bottom: 4vw;
+    }
+
+    .small-red-box {
+        width: 22vw;
+        height: 22vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .small-red-box {
+        width: 44vw;
+        height: 44vw;
+        margin-bottom: 4vw;
+    }
+
+    .small-red-boxes-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .big-red-box {
+        width: 58vw;
+        height: 85vw;
+    }
+}
+
+/* _________________ subscribe ___________________ */
+@media screen and (max-width: 751px) {
+    .subscribe-form input[type=text] {
+        width: 98%;
+    }
+    .subscribe-form input[type=submit] {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .subscribe-wrapper {
+        margin-top: 20px;
+    }
+    .subscribe-form input[type=text] {
+        margin-right: 0;
+    }
+    .subscribe h3 {
+        font-size: 28px;
+    }
+}
+/* __________________ contact ____________________ */
+@media screen and (max-width: 580px) {
+    .contact {
+        margin-top: 30px;
+    }
+    .contact-text {
+        align-items: center;
+    }
+    .contact-text p {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 1215px) {
+    /* moves contacts block lower */
+    .contact {
+        padding-bottom: 550px;
+
+    }
+    address {
+        bottom: 150px;
+        width: 90%;
+    }
+    .contact-text {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    address {
+        width: 95%;
+    }
+    .message-form input[type=text], textarea {
+        width: 98%;
+    }
+    .message-form {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-info-wrapper {
+        margin: 0 0 0 20px;
+    }
+}
